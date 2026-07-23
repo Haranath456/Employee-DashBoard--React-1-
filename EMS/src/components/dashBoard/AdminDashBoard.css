@@ -1,0 +1,126 @@
+.AdminDashBoardparentBody{
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+.AdminHeader span{
+    font-size: x-large;
+}
+
+.AdminLogOutbtn{
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    flex: none;
+    align-self: center;
+    cursor: pointer;
+}
+
+.AdminHeader{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+.AdminTaskCreateDiv{
+
+    background-color: rgb(26, 26, 26);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.AdminTaskCreateDiv form{
+    display: flex;
+    flex-direction: row;
+}
+
+.AdminTaskCreateDivleft{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+}
+
+.AdminTaskCreateDivright{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.AdminTaskCreateDiv input{
+  background-color: black;
+  color: white;
+  font-size: small;
+  border-style: solid;
+  border-width: 2px;
+  border-color: aliceblue;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 600px;
+}
+
+.AdminTaskCreateDiv textarea{
+  background-color: black;
+  color: white;
+  font-size: x-large;
+  outline: none;
+  border-style: solid;
+  border-width: 3px;
+  border-color: aliceblue;
+  border-radius: 7px;
+  padding: 20px;
+  max-width: 500px;
+  height: 100%;
+  resize: none;
+  scrollbar-width: none;
+}
+
+.AdminTaskCreateDiv button{
+  background-color: white;
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  border-style: solid;
+  border-width: 3px;
+  border-color: aliceblue;
+  border-radius: 7px;
+  max-width: 545px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.AdminTaskCardContainer{
+    background-color: rgb(26, 26, 26);
+    width: auto;
+    max-height: 186px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.AdminTaskCard{
+    background-color: red;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.AdminTaskCardContainer h1{
+    text-align: center;
+    margin-top: 0px;
+}
